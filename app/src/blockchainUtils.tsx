@@ -1,6 +1,6 @@
 import { BrowserProvider, Contract, ethers, Signer } from "ethers";
 
-const contractAddress = "0xECed87f6A4bf8Aa362850F229BC3be7A46B18201"; // Replace with your contract address
+const contractAddress = "0x7Be8f87d543F3d45Adc0F2C95D58d39e9A8b80c1"; // Replace with your contract address
 const abi = [
     {
       "inputs": [
@@ -32,8 +32,7 @@ const abi = [
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -46,8 +45,7 @@ const abi = [
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ];
 
