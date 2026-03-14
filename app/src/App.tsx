@@ -11,10 +11,10 @@ function App() {
   const [petIds, setPetIds] = useState<number[]>([]);
 
   useEffect(() => {
-    fetch("./assets/pets.json").then(res => res.json()).then(data => {
-      setPets(data);
-    });
-    init();
+    // fetch("./assets/pets.json").then(res => res.json()).then(data => {
+    //   setPets(data);
+    // });
+    // init();
   }, []);
 
   const init = async () => {
